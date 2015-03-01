@@ -1,0 +1,25 @@
+﻿@model HandleErrorInfo
+@{
+    ViewBag.Title = "Error";
+    Layout = "~/Views/Shared/Layouts/_Empty.cshtml";
+}
+
+<h2>Error</h2>
+
+<div class="alert alert-danger">
+    An unexpected error has occurred. Please contact the system administrator.
+</div>
+
+@if (Model != null && HttpContext.Current.IsDebuggingEnabled)
+{
+    <div>
+        <p>
+            <strong>Exception:</strong>@Model.Exception.Message <br />
+            <strong>Controller:</strong>@Model.ControllerName <br />
+            <strong>Action:</strong>@Model.ActionName
+        </p>
+        <pre>
+@Html.Partial("_StackTrace", Model.Exception)
+        </pre>
+    </div>
+}

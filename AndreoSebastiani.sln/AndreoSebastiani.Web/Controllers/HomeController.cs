@@ -13,5 +13,17 @@ namespace AndreoSebastiani.Web.Controllers
         {
             return View();
         }
+
+        public ActionResult TestException()
+        {
+            try
+            {
+                throw new Exception("An Inner exception has been thrown.");
+            }
+            catch (Exception e)
+            {
+                throw new Exception("An exception has been thrown.", e);
+            }
+        }
     }
 }
