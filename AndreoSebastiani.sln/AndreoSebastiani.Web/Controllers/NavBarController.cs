@@ -8,10 +8,14 @@ namespace AndreoSebastiani.Web.Controllers
 {
     public class NavBarController : Controller
     {
-        // GET: NavBar
         public ActionResult NavBar()
         {
             return PartialView("_NavBar");
+        }
+
+        public ActionResult Footer()
+        {
+            return PartialView("_Footer");
         }
     }
 }

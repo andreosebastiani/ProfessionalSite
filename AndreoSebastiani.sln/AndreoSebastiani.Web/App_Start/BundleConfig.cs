@@ -14,6 +14,7 @@ namespace AndreoSebastiani.Web.App_Start
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/bootstrap-theme.css")
                 .Include("~/Content/jquery-ui.css")
+                .Include("~/Content/andreo.css")
                 );
 
             bundles.Add(new ScriptBundle("~/bundles/commonjavascript")
