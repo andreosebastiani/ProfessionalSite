@@ -103,8 +103,15 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\carousel.css" />
     <Content Include="Content\Home.css" />
+    <Content Include="Content\Images\icon-frontend_development-256.png" />
+    <Content Include="Content\Images\icon-interaction_design-256.png" />
+    <Content Include="Content\Images\icon-mobile_design-256.png" />
+    <Content Include="Content\Images\icon-web_design-256.png" />
+    <Content Include="Content\nav-scroll.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="Content\twitter.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -113,6 +120,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\Pdfs\Resume 2015.pdf" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Icon.png" />
     <Content Include="Scripts\bootstrap.js" />
@@ -120,7 +128,9 @@
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\nav-scroll.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\waypoints.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -145,6 +155,7 @@
     <Content Include="Views\Shared\_StackTrace.cshtml" />
     <Content Include="Views\NavBar\_Footer.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <Content Include="Views\Home\_Carousel.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

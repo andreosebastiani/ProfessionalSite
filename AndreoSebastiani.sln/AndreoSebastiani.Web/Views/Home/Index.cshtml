@@ -1,220 +1,36 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/Layouts/_Main.cshtml";
 }
 
-<div class="jumbotron">
+@Html.Partial("_Carousel")
+
+<section id="about" class="about-section">
     <div class="container">
-        
-    </div>
-</div>
+        <span class="scrollimation"></span>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="~/Content/Images/icon-web_design-256.png" />
+                <h2>Web Architecture</h2>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </p>
+            </div>
 
-<div class="row">&nbsp;</div>
-
-<div class="row text-center">
-    <div class="col-md-offset-2 col-md-8">
-        <h4><strong>Education</strong></h4>
-    </div>
-</div>
-
-<hr />
-
-<div class="row">
-    <div class="col-md-offset-2 col-md-4">
-        University of Louisville
-    </div>
-    <div class="col-md-offset-2 col-md-4">
-        Major GPA: 3.6
-    </div>
-</div>
-
-<div class="row">&nbsp;</div>
-
-<div class="row">
-    <div class="col-md-offset-2 col-md-4">
-        BS, Computer Information Systems
-    </div>
-    <div class="col-md-offset-2 col-md-4">
-        Anticipated: 12/2015
-    </div>
-</div>
-
-<div class="row">&nbsp;</div>
-
-<div class="row">
-    <div class="col-md-offset-2 col-md-8">
-        <em>Focus:&nbsp;</em>Web Development
-    </div>
-</div>
-
-<div class="row">&nbsp;</div>
-<div class="row">&nbsp;</div>
-<div class="row">&nbsp;</div>
-
-<div class="row text-center">
-    <div class="col-md-offset-2 col-md-8">
-        <h4><strong>Skills</strong></h4>
-    </div>
-</div>
-
-<hr />
-<div class="row">&nbsp;</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="70%">
-        <div class="skillbar-title" style="background: #d35400;"><span>C# 5.0</span></div>
-        <div class="skillbar-bar" style="background: #e67e22;"></div>
-        <div class="skill-bar-percent">70%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="60%">
-        <div class="skillbar-title" style="background: #2980b9;"><span>SQL</span></div>
-        <div class="skillbar-bar" style="background: #3498db;"></div>
-        <div class="skill-bar-percent">60%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="90%">
-        <div class="skillbar-title" style="background: #2c3e50;"><span>HTML5</span></div>
-        <div class="skillbar-bar" style="background: #2c3e50;"></div>
-        <div class="skill-bar-percent">90%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="70%">
-        <div class="skillbar-title" style="background: #46465e;"><span>CSS3</span></div>
-        <div class="skillbar-bar" style="background: #5a68a5;"></div>
-        <div class="skill-bar-percent">70%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="50%">
-        <div class="skillbar-title" style="background: #333333;"><span>JavaScript</span></div>
-        <div class="skillbar-bar" style="background: #525252;"></div>
-        <div class="skill-bar-percent">50%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="50%">
-        <div class="skillbar-title" style="background: #27ae60;"><span>JQuery</span></div>
-        <div class="skillbar-bar" style="background: #2ecc71;"></div>
-        <div class="skill-bar-percent">50%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-<div class="col-md-offset-2 col-md-8">
-    <div class="skillbar clearfix " data-percent="30%">
-        <div class="skillbar-title" style="background: #124e8c;"><span>AngularJS</span></div>
-        <div class="skillbar-bar" style="background: #4288d0;"></div>
-        <div class="skill-bar-percent">30%</div>
-    </div> <!-- End Skill Bar -->
-</div>
-
-
-    <div class="row">&nbsp;</div>
-    <div class="row">&nbsp;</div>
-    <div class="row">&nbsp;</div>
-
-    <div class="row text-center">
-        <div class="col-md-offset-2 col-md-8">
-            <h4><strong>Experience</strong></h4>
+            <div class="col-md-4">
+                <img src="~/Content/Images/icon-frontend_development-256.png" />
+                <h2>Front-End Development</h2>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </p>
+            </div>
+            <div class="col-md-4">
+                <img src="~/Content/Images/icon-mobile_design-256.png" />
+                <h2>iOS Development</h2>
+                <p>
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua." "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                </p>
+            </div>
         </div>
     </div>
-
-    <hr />
-
-    <div class="row">
-        <div class="col-md-offset-2 col-md-4">
-            Software Engineer Intern - ZirMed
-        </div>
-        <div class="col-md-offset-2 col-md-4">
-            August 2014 - Present
-        </div>
-    </div>
-
-    <div class="row">&nbsp;</div>
-
-    <div class="row">
-        <div class="col-md-offset-2 col-md-4">
-            Developer Co-op - Heartland Payment Systems
-        </div>
-        <div class="col-md-offset-2 col-md-4">
-            May 2014 - August 2014
-        </div>
-    </div>
-
-    <div class="row">&nbsp;</div>
-
-    <div class="row">
-        <div class="col-md-offset-2 col-md-4">
-            Help Desk Specialist - Yum Brands
-        </div>
-        <div class="col-md-offset-2 col-md-4">
-            February 2014 - May 2014
-        </div>
-    </div>
-
-    <div class="row">&nbsp;</div>
-
-    <div class="row">
-        <div class="col-md-offset-2 col-md-4">
-            Implemenation and Systems Analyst - Appriss
-        </div>
-        <div class="col-md-offset-2 col-md-4">
-            May 2013 - January 2014
-        </div>
-    </div>
-
-    <div class="row">&nbsp;</div>
-    <div class="row">&nbsp;</div>
-    <div class="row">&nbsp;</div>
-
-    <div class="row text-center">
-        <div class="col-md-offset-2 col-md-8">
-            <h4><strong>Activities & Honors</strong></h4>
-        </div>
-    </div>
-
-    <hr />
-
-    <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-            UofL College of Business Student Council Member -- Representing over 1,500 students
-        </div>
-    </div>
-    <br />
-    <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-            UofL SES Scholarship Recipient
-        </div>
-    </div>
-    <br />
-    <div class="row">
-        <div class="col-md-offset-2 col-md-8">
-            RobinDale Scholarship Recipient
-        </div>
-    </div>
-
-<div class="row">&nbsp;</div>
-<div class="row">&nbsp;</div>
-<div class="row">&nbsp;</div>
-    
-    @section pagescripts {
-
-        <script>
-            jQuery(document).ready(function () {
-                jQuery('.skillbar').each(function () {
-                    jQuery(this).find('.skillbar-bar').animate({
-                        width: jQuery(this).attr('data-percent')
-                    }, 6000);
-                });
-            });
-        </script>
-    }
+</section>

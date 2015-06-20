@@ -13,15 +13,20 @@ namespace AndreoSebastiani.Web.App_Start
             bundles.Add(new StyleBundle("~/Content/commoncss")
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/bootstrap-theme.css")
-                .Include("~/Content/jquery-ui.css")
-                .Include("~/Content/Home.css")
                 .Include("~/Content/Site.css")
+                .Include("~/Content/Home.css")
+                .Include("~/Content/carousel.css")
+                .Include("~/Content/twitter.css")
+                .Include("~/Content/nav-scroll.css")
                 );
 
+
             bundles.Add(new ScriptBundle("~/bundles/commonjavascript")
-                .Include("~/Scripts/jquery-2.1.3.js")
                 .Include("~/Scripts/bootstrap.js")
-                .Include("~/Scripts/jquery-ui.js")
+                .Include("~/Scripts/jquery-2.1.4.js")
+                .Include("~/Scripts/jquery.easing.min.js")
+                .Include("~/Scripts/nav-scroll.js")
+                .Include("~/Scripts/waypoints.min.js")
                 );
 
             BundleTable.EnableOptimizations = true;
