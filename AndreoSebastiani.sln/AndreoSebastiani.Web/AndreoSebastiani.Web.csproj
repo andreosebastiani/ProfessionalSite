@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -109,6 +110,14 @@
     <Content Include="Content\Images\icon-interaction_design-256.png" />
     <Content Include="Content\Images\icon-mobile_design-256.png" />
     <Content Include="Content\Images\icon-web_design-256.png" />
+    <Content Include="Content\Images\louisville 2.jpg" />
+    <Content Include="Content\Images\louisville 3.jpg" />
+    <Content Include="Content\Images\louisville.jpg" />
+    <Content Include="Content\Images\new web arch.png" />
+    <Content Include="Content\Images\pittsburgh.jpg" />
+    <Content Include="Content\Images\usa 2.jpg" />
+    <Content Include="Content\Images\usa.jpg" />
+    <Content Include="Content\Images\web arch.png" />
     <Content Include="Content\nav-scroll.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\twitter.css" />
