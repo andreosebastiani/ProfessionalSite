@@ -21,9 +21,16 @@
 
     @Html.Action("Footer", "NavBar")
 
+    
+
     @Scripts.Render("~/bundles/commonjavascript")
 
     @RenderSection("pagescripts", false)
+
+    @Html.Partial("~/Views/Shared/Layouts/_GoogleAnalytics.cshtml")
+
+    
+    
 
 </body>
 </html>

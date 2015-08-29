@@ -165,6 +165,7 @@
     <Content Include="Views\NavBar\_Footer.cshtml" />
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\_Carousel.cshtml" />
+    <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
