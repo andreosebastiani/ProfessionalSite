@@ -27,6 +27,8 @@ namespace AndreoSebastiani.Web.App_Start
                 .Include("~/Scripts/jquery.easing.min.js")
                 .Include("~/Scripts/nav-scroll.js")
                 .Include("~/Scripts/waypoints.min.js")
+                .Include("~/Scripts/home.js")
+                .Include("~/Scripts/resume.js")
                 );
 
             BundleTable.EnableOptimizations = true;

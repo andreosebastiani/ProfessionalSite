@@ -111,7 +111,6 @@
     <Content Include="Content\Images\usa.jpg" />
     <Content Include="Content\Images\Web Architecture.png" />
     <Content Include="Content\Images\Web Design.png" />
-    <Content Include="Content\nav-scroll.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\twitter.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -127,11 +126,13 @@
     <Content Include="Icon.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\home.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
     <Content Include="Scripts\jquery-2.1.4.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="Scripts\nav-scroll.js" />
     <Content Include="Scripts\npm.js" />
+    <Content Include="Scripts\resume.js" />
     <Content Include="Scripts\waypoints.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -139,8 +140,10 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\BlogController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavBarController.cs" />
+    <Compile Include="Controllers\ResumeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -159,6 +162,8 @@
     <Content Include="Scripts\jquery-2.1.4.min.map" />
     <Content Include="Views\Home\_Carousel.cshtml" />
     <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
+    <Content Include="Views\Resume\Index.cshtml" />
+    <Content Include="Views\Blog\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

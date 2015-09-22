@@ -1,5 +1,5 @@
 ﻿<nav class="navbar navbar-default">
-    <div class="container-fluid">
+    <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -13,11 +13,14 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Profile <span class="sr-only">(current)</span></a></li>
-                <li><a href="~/Content/Pdfs/Resume 2015.pdf">Resume</a></li>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="@Url.Action("Index", "Home")">Profile <span class="sr-only">(current)</span></a></li>
+                
+                <li><a href="@Url.Action("Index", "Resume")">Resume</a></li>
+                <li><a href="@Url.Action("Index", "Blog")">Blog</a>
+                </li>
                 <li><a href="mailto:andreosebastiani@gmail.com">Contact</a></li>
             </ul>
         </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+    </div><!-- /.container-->
 </nav>
