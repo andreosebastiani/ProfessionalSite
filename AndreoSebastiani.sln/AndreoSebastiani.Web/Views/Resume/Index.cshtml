@@ -1,0 +1,199 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+}
+
+<div id="main-container" class="container">
+    @*<ol class="breadcrumb">
+            <li><a href="/">Home</a></li>
+            <li>Résumé</li>
+        </ol>*@
+
+    <div class="hidden-xs hidden-sm col-md-2">
+        <div id="res-nav" class="affix-top">
+            <ul id="res-nav-list" class="nav">
+                <li class=""><a href="#res-summary">Summary</a></li>
+                <li class="">
+                    <a href="#res-skills">Skills</a>
+                    <ul>
+                        <li class=""><a href="#res-skills-lang">Languages</a></li>
+                        <li><a href="#res-skills-data">Databases</a></li>
+                        <li class=""><a href="#res-skills-method">Methodologies</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="#res-highlights">Highlights</a></li>
+                <li class="">
+                    <a href="#res-emp">Employment</a>
+                    <ul>
+                        <li class=""><a href="#res-emp-zirmed">ZirMed</a></li>
+                        <li class=""><a href="#res-emp-hps">HPS</a></li>
+                        <li class=""><a href="#res-emp-yum">Yum</a></li>
+                        <li class=""><a href="#res-emp-appriss">Appriss</a></li>
+                    </ul>
+                </li>
+                <li class=""><a href="#res-edu">Education</a></li>
+                <li class="no-change small"><a href="#top">Back to top</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="res-content" class="col-xs-12 col-md-10">
+        <div id="res-summary" class="res-section">
+            <h4 class="collapse-top-margin" id="top">Summary</h4>
+            <p>
+                .Net Developer with a background in enterprise application development using C#, ASP.NET MVC,
+
+                NHibernate, Hadoop, Hive, SQL Server, and Agile. Over three years of experience in object-oriented
+
+                design and application architecture.
+                @*Excellent candidate for organizations seeking a hardworking, team-oriented, and creative software professional.*@
+            </p>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div id="res-skills" class="res-section">
+            <h4>Skills</h4>
+            <dl class="dl-horizontal">
+                <dt id="res-skills-lang">Languages &amp; Tools</dt>
+                <dd>
+                    <span class="badge alert-success">C# 5</span>
+                    <span class="badge alert-success">ASP.NET 4.5</span>
+                    <span class="badge alert-success">MVC5</span>
+                    <span class="badge alert-success">HTML5</span>
+                    <span class="badge alert-success">CSS3</span>
+                    <span class="badge alert-success">Javascript</span>
+                    <span class="badge alert-success">JQuery</span>
+                    <span class="badge alert-warning">AngularJS</span>
+                </dd>
+                <dt id="res-skills-data">Databases &amp; Tools</dt>
+                <dd>
+                    <span class="badge alert-success">SQL Server 2014</span>
+                    <span class="badge alert-success">NHibernate</span>
+                    <span class="badge alert-success">Entity Framework</span>
+                    <span class="badge alert-warning">Dapper</span>
+                    <span class="badge alert-warning">ADO.NET</span>
+                    <span class="badge alert-warning">RavenDB</span>
+
+                </dd>
+                <dt id="res-skills-method">Methodologies &amp; Practices</dt>
+                <dd>
+                    <span class="badge alert-success">Agile</span>
+                    <span class="badge alert-success">Domain Driven Design</span>
+                    <span class="badge alert-success">Command Query Separation</span>
+                    <span class="badge alert-success">Object-Oriented Design Patterns</span>
+                </dd>
+            </dl>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div id="res-highlights" class="res-section">
+            <h4>Highlights</h4>
+            <ul>
+                <li>Evaluated enterprise application architecture and refactored using design patterns including Domain Driven Design, Object Relational Mapping, Repository and Unit of Work patterns, and Inversion of Control to engineer more scalable and stable applications.</li>
+                <li>Consulted with product stakeholders to analyze business processes and model complex business domains into Classes.</li>
+                @*<li>Performed Agile project management duties by gathering requirements, writing and prioritizing user stories, estimating tasks, and conducting sprint meetings including planning, reviews, retrospectives, and daily stand-ups.</li>
+                    <li>Built and led large and small teams throughout all phases of the software development lifecycle, regularly delivering production-quality code on time and on budget.</li>
+                    <li>Researched, evaluated, and selected frameworks and tools for specific project technology stacks and mentored team members on the technologies, patterns, and practices in use.</li>*@
+            </ul>
+        </div>
+        <div class="row">&nbsp;</div>
+        <div id="res-emp" class="res-section">
+            <h4>Employment</h4>
+
+            <div id="res-emp-zirmed" class="employer">
+                <div class="clearfix">
+                    <h4 class="pull-left">ZirMed</h4>
+                    <h5 class="pull-right">Aug 2014 - Present</h5>
+                </div>
+                <div><strong>.NET Engineer</strong></div>
+                <div>
+                    <span class="badge alert-info">.NET 4.5</span>
+                    <span class="badge alert-info">C# 5</span>
+                    <span class="badge alert-info">ASP.NET MVC 5</span>
+                    <span class="badge alert-info">SQL Server 2014</span>
+                    <span class="badge alert-info">NHibernate 3.3</span>
+                    <span class="badge alert-info">Dapper</span>
+                    <span class="badge alert-info">TFS</span>
+                    <span class="badge alert-warning">Hadoop</span>
+                    <span class="badge alert-warning">Hive</span>
+                    <span class="badge alert-warning">Pig</span>
+                    <span class="badge alert-warning">Oozie</span>
+                </div>
+                <ul>
+                    <li>Evaluated enterprise application architecture and refactored using design patterns including Domain Driven Design, Object Relational Mapping, Repository and Unit of Work patterns, and Inversion of Control to engineer a more scalable and stable application.</li>
+                    <li>Consulted with product stakeholders to analyze business processes and model complex business domains into Classes.</li>
+                    <li>Participated in the development of a class library consumed by allcompany-wide intiative to become resilient to SQL failures.</li>
+                    <li>Built REST service endpoints for data integration across web applications./</li>
+                </ul>
+            </div>
+
+            <div id="res-emp-hps" class="employer">
+                <div class="clearfix">
+                    <h4 class="pull-left">Heartland Payment Systems</h4>
+                    <h5 class="pull-right">May 2014 - Aug 2014</h5>
+                </div>
+                <div><strong>Developer Co-op</strong></div>
+                <div>
+                    <span class="badge alert-info">C#</span>
+                    <span class="badge alert-info">ASP.NET Web Forms</span>
+                    <span class="badge alert-info">SQL Server</span>
+                </div>
+                <ul>
+                    <li>Developed and maintained multiple websites, including external corporate and e-commerce sites and intranet and extranet sites for employees and partners.</li>
+                    <li>Optimized stored procedures and indexes to increase performance on production websites.</li>
+                    <li>Enhanced Web UI using HTML5, CSS3, and JavaScript.</li>
+                </ul>
+            </div>
+
+            <div id="res-emp-yum" class="employer">
+                <div class="clearfix">
+                    <h4 class="pull-left">Yum Brands</h4>
+                    <h5 class="pull-right">Feb 2014 - May 2014</h5>
+                </div>
+                <div><strong>IT Intern</strong></div>
+                <ul>
+                    <li>Gathered requirements, wrote specifications, and tracked and reported progress on multiple projects.</li>
+                    <li>Established processes to increase efficiencies and productivity.</li>
+                </ul>
+            </div>
+
+            <div id="res-emp-appriss" class="employer">
+                <div class="clearfix">
+                    <h4 class="pull-left">Appriss</h4>
+                    <h5 class="pull-right">June 2013 - Jan 2014</h5>
+                </div>
+                <div><strong>Implementation and Systems Analyst</strong></div>
+
+                <ul>
+                    <li>Smoke tested production applications following deployments.</li>
+                    <li>Worked closely with clients to ensure data accuracy.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div id="res-edu" class="res-section">
+            <h4>Education</h4>
+            <dl class="dl-horizontal">
+                <dt>University of Louisville</dt>
+                <dd>Bachelor of Business Administration, Computer Information Systems</dd>
+                <dd>Concentration: Web Development</dd>
+                <dd>Expected: May 2016</dd>
+            </dl>
+        </div>
+
+
+        <div class="row pull-right">
+            <a href="~/Content/Pdfs/Resume 2015.pdf" class="btn btn-default">
+                View PDF
+                <i class="fa fa-file-pdf-o"></i>
+            </a>
+        </div>
+
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+
+    </div>
+
+
+
+
+</div>
