@@ -1,5 +1,5 @@
 ﻿body {
-    background-color: #e7e7e7;
+    background-color: #f8f8f8;
 }
 
 #main-nav a.navbar-brand {
@@ -85,3 +85,4 @@ div#main-container {
 .blog-right {
     border-left: solid 1px red;
 }
+
