@@ -20,9 +20,24 @@ textarea {
     max-width: 280px;
 }
 
-.footer {
-    color: black;
-}
 
 .navbar { margin-bottom:0px !important; }
 .carousel-caption { margin-top:0px !important }
+
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+    color: black;
+    height: 155px; /* .push must be the same height as .footer */
+}
