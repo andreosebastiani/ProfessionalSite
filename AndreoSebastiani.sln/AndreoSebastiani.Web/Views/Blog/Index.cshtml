@@ -26,13 +26,52 @@
 
     <div class="container">
         <div class="col-md-9">
-            <h2>Blogs</h2>
+            <div class="row">
+                <h2>Blogs</h2>
+            </div>
+            <div class="row">
+                <h4 class="nodeJS">NodeJS</h4>
+            </div>
+            <div class="row" id="node-JS">
+                <blockquote>"Node.js is an open source, cross-platform runtime environment for server-side and networking applications. 
+Node.js applications are written in JavaScript, and can be run within the Node.js runtime on OS X, Microsoft Windows, Linux, FreeBSD, and IBM i." 
+- <a href="http://en.wikipedia.org/wiki/Node.js">Wikipedia</a></blockquote>
+
+                    <p>Node.js is an event-driven, server-side JavaScript environment. 
+                Node runs JavaScript using the V8 engine developed by Google for use in their Chrome web browser. 
+                Leveraging V8 allows Node to provide a server-side runtime environment that compiles and executes JavaScript at lightning speeds. 
+                The major speed increase is due to the fact that V8 compiles JavaScript into native machine code, 
+                instead of interpreting it or executing it as bytecode. Node is open source, and cross-platform, running on Mac OSX, Windows, and Linux. 
+                But JavaScript? On the server-side? Why? Though JavaScript has traditionally been relegated to menial tasks in the web browser, 
+                it’s actually a fully-functional programming language, capable of anything that more traditional languages like C++. Ruby, or Java, are. 
+                Furthermore, JavaScript has the advantage of an excellent event model, ideal for asynchronous programming. 
+                JavaScript is also a ubiquitous language, well known by almost all developers. 
+                This lowers the learning curve of Node.js, since most devs won’t have to learn a new language to start building Node.js apps.</p>
+
+                    <p>All web and server request calls in node.js are of non-blocking I/Os. 
+                A web request comes in a node.js web server and the web server accepts this request and handles the request to a listener object to process the response. 
+                Also this web server will remain ready to accept any new web request, 
+                and the previous response handling will remain in a queue for performing the rest of operations.
+                 Now the node.js environment takes care of preparing the web response which again can be a database call from the actual application. 
+                Also this database query can consist of callback functions with the response from the database as being ready.
+                 Those operations are executed in a queue and also called as event driven programming and all of these operations are asynchronous in nature.
+                 So essentially, all of the function calls within node.js context are non-blocking input-output operations.</p>
+
+            </div>
         </div>
+
         <div class="col-md-3 blog-right">
-            <h3>Recent Posts</h3>
+            <h4>Recent Posts</h4>
+                <div class="affix-top">
+                    <ul class="nav">
+                        <li class="nodeJS"><a href="#node-JS">NodeJS</a></li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
     </div>
 
-</div>
+
 
 
