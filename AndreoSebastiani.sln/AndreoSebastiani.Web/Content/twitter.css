@@ -70,7 +70,7 @@
     background: none;
 }
 
-@media(min-width:768px) {
+@media(min-width:900px) {
     #wrapper {
         padding-left: 250px;
     }
@@ -95,5 +95,11 @@
     #wrapper.toggled #page-content-wrapper {
         position: relative;
         margin-right: 0;
+    }
+}
+
+@media(max-width:1650px) {
+    #wrapper {
+        display: none;
     }
 }
