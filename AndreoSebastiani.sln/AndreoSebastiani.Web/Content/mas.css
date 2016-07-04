@@ -1,4 +1,19 @@
-﻿.text-vertical-center {
+﻿#menu-toggle {
+    background-color: transparent !important;
+    border-radius:0 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    color: #fff; 
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 25px;
+    white-space: nowrap;
+    z-index: 1;
+    position: absolute !important;
+    top: 20px;
+    right: 20px;
+}
+
+.text-vertical-center {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
@@ -107,21 +122,6 @@
 .sidebar-nav > .sidebar-brand a:hover {
     color: #fff;
     background: none;
-}
-
-#menu-toggle {
-    background-color: transparent !important;
-    border-radius:0 !important;
-    font-family: 'Open Sans', sans-serif !important;
-    color: #fff; 
-    font-size: 12px;
-    text-transform: uppercase;
-    line-height: 25px;
-    white-space: nowrap;
-    z-index: 1;
-    position: fixed;
-    top: 20px;
-    right: 20px;
 }
 
 #sidebar-wrapper.active {
