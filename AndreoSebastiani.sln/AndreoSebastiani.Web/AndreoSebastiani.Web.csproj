@@ -106,6 +106,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\carousel.css" />
     <Content Include="Content\Home.css" />
+    <Content Include="Content\Images\favicon.ico" />
     <Content Include="Content\Images\Italy.jpg" />
     <Content Include="Content\Images\Mobile Design.png" />
     <Content Include="Content\Images\pittsburgh.jpg" />
