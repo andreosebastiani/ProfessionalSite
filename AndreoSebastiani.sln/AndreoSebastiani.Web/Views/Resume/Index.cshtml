@@ -3,6 +3,16 @@
     Layout = "~/Views/Shared/Layouts/_Main.cshtml";
 }
 
+@section pagecss {
+    
+    <style>
+        .res-section h5 {
+            font-weight: bold;
+
+        }
+    </style>
+    }
+
 <div id="main-container" class="container">
     @*<ol class="breadcrumb">
             <li><a href="/">Home</a></li>
@@ -49,7 +59,7 @@
                 @*Excellent candidate for organizations seeking a hardworking, team-oriented, and creative software professional.*@
             </p>
         </div>
-        <div class="row">&nbsp;</div>
+        <div class="row"><hr /></div>
         <div id="res-skills" class="res-section">
             <h4>Skills</h4>
             <dl class="dl-horizontal">
@@ -84,7 +94,7 @@
                 </dd>
             </dl>
         </div>
-        <div class="row">&nbsp;</div>
+        <div class="row"><hr /></div>
         <div id="res-highlights" class="res-section">
             <h4>Highlights</h4>
             <ul>
@@ -95,13 +105,13 @@
                     <li>Researched, evaluated, and selected frameworks and tools for specific project technology stacks and mentored team members on the technologies, patterns, and practices in use.</li>*@
             </ul>
         </div>
-        <div class="row">&nbsp;</div>
+        <div class="row"><hr /></div>
         <div id="res-emp" class="res-section">
             <h4>Employment</h4>
 
             <div id="res-emp-zirmed" class="employer">
                 <div class="clearfix">
-                    <h4 class="pull-left">ZirMed</h4>
+                    <h5 class="pull-left">ZirMed</h5>
                     <h5 class="pull-right">Aug 2014 - Present</h5>
                 </div>
                 <div><strong>.NET Engineer</strong></div>
@@ -125,10 +135,10 @@
                     <li>Built REST service endpoints for data integration across web applications.</li>
                 </ul>
             </div>
-
+            <hr />
             <div id="res-emp-hps" class="employer">
                 <div class="clearfix">
-                    <h4 class="pull-left">Heartland Payment Systems</h4>
+                    <h5 class="pull-left">Heartland Payment Systems</h5>
                     <h5 class="pull-right">May 2014 - Aug 2014</h5>
                 </div>
                 <div><strong>Developer Co-op</strong></div>
@@ -143,10 +153,10 @@
                     <li>Enhanced Web UI using HTML5, CSS3, and JavaScript.</li>
                 </ul>
             </div>
-
+            <hr />
             <div id="res-emp-yum" class="employer">
                 <div class="clearfix">
-                    <h4 class="pull-left">Yum Brands</h4>
+                    <h5 class="pull-left">Yum Brands</h5>
                     <h5 class="pull-right">Feb 2014 - May 2014</h5>
                 </div>
                 <div><strong>IT Intern</strong></div>
@@ -155,10 +165,10 @@
                     <li>Established processes to increase efficiencies and productivity.</li>
                 </ul>
             </div>
-
+            <hr />
             <div id="res-emp-appriss" class="employer">
                 <div class="clearfix">
-                    <h4 class="pull-left">Appriss</h4>
+                    <h5 class="pull-left">Appriss</h5>
                     <h5 class="pull-right">June 2013 - Jan 2014</h5>
                 </div>
                 <div><strong>Implementation and Systems Analyst</strong></div>
@@ -170,10 +180,9 @@
             </div>
         </div>
 
-        <div class="row">&nbsp;</div>
+        <div class="row"><hr /></div>
         <div id="res-edu" class="res-section">
             <h4>Education</h4>
-            <h5 class="pull-right">August 2016</h5>
             <dl class="dl-horizontal">
                 <dt>University of Louisville</dt>
                 <dd>Bachelor of Business Administration, Computer Information Systems</dd>
