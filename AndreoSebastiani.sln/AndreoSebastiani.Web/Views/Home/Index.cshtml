@@ -1,16 +1,59 @@
 ﻿@{
     ViewBag.Title = "Index";
-    Layout = "~/Views/Shared/Layouts/_Main.cshtml";
+    Layout = "~/Views/Shared/Layouts/_Empty.cshtml";
 }
 
-    @*@Html.Partial("_Carousel")*@
+<!-- Navigation -->
+<a id="menu-toggle" href="#" class="btn btn-default btn-lg toggle">    
+    <i class="fa fa-bars"></i>
+    &nbsp; Menu
+</a>
 
-<div class="widewrapper main">
-    <img src="~/Content/Images/pittsburgh.jpg" class="img-responsive">
-</div>
+<nav id="sidebar-wrapper">
+    <ul class="sidebar-nav">
+        <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
+            <i class="fa fa-times" style="color: #fff;"></i>
+        </a>
+        <li class="sidebar-brand" style="color: #fff;">
+            Andreo Sebastiani
+        </li>
+        <li>
+            <a href="@Url.Action("Index", "Home")">Home</a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", "Resume")">Resume</a>
+        </li>
+        <li>
+            <a href="@Url.Action("Index", "Blog")">Blog</a>
+        </li>
+        <li>
+            <a href="mailto:andreosebastiani@gmail.com">Contact</a>
+        </li>
 
+    </ul>
+</nav>
 
-<div class="container" id="profile">
+<!-- Header -->
+<header id="top" class="header">
+    <div class="text-vertical-center">
+        <h1>Andreo Sebastiani</h1>
+        <h3>Developer in Louisville, KY</h3>
+        <a class="scroll-down icon-arrow-left" href="#content">
+            <i class="fa fa-chevron-down" aria-hidden="true"></i>
+        </a>
+    </div>
+</header>
+
+@*<div class="widewrapper main">
+    <img src="~/Content/Images/Italy.jpg" class="img-responsive">
+    
+</div>*@
+
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+<div class="row">&nbsp;</div>
+
+<div class="container" id="content">
     <div class="col-md-4 text-center">
         <i class="fa fa-sitemap fa-3x"></i> <h4>Web Architecture</h4>
         <p>

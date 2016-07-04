@@ -14,6 +14,7 @@ namespace AndreoSebastiani.Web.App_Start
                 .Include("~/Content/bootstrap.css")
                 .Include("~/Content/bootstrap-theme.css")
                 .Include("~/Content/Site.css")
+                .Include("~/Content/mas.css")
                 .Include("~/Content/Home.css")
                 .Include("~/Content/carousel.css")
                 .Include("~/Content/twitter.css")
@@ -28,6 +29,7 @@ namespace AndreoSebastiani.Web.App_Start
                 .Include("~/Scripts/nav-scroll.js")
                 .Include("~/Scripts/waypoints.min.js")
                 .Include("~/Scripts/home.js")
+                .Include("~/Scripts/mas.js")
                 .Include("~/Scripts/resume.js")
                 );
 
