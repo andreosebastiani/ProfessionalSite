@@ -4,7 +4,7 @@
 }
 
 <!-- Navigation -->
-<a id="menu-toggle" href="#" class="btn btn-default btn-lg toggle">    
+@*<a id="menu-toggle" href="#" class="btn btn-default btn-lg toggle">    
     <i class="fa fa-bars"></i>
     &nbsp; Menu
 </a>
@@ -28,7 +28,7 @@
         </li>
 
     </ul>
-</nav>
+</nav>*@
 
 <!-- Header -->
 <header id="top" class="header">
@@ -41,10 +41,20 @@
     </div>
 </header>
 
-@*<div class="widewrapper main">
-    <img src="~/Content/Images/Italy.jpg" class="img-responsive">
-    
-</div>*@
+<div id="toggle" class="button_container"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+<div id="overlay" class="overlay">
+    <nav class="overlay-menu">
+        <ul>
+            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li>
+                <a href="@Url.Action("Index", "Resume")">Resume</a>
+            </li>
+            <li>
+                <a href="mailto:andreosebastiani@gmail.com">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</div>
 
 <div class="row">&nbsp;</div>
 <div class="row">&nbsp;</div>
@@ -75,6 +85,14 @@
 
 </div>
 
+@section pagescripts {
+    <script>
+        $('#toggle').click(function () {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+    </script>
+    }
 
 
 
