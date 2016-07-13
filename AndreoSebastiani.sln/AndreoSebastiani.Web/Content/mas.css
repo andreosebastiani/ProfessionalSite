@@ -125,6 +125,7 @@
   overflow: hidden;
 }
 .overlay.open {
+    position: absolute;
   opacity: .997;
   visibility: visible;
   height: 100%;
@@ -179,7 +180,7 @@
   overflow: hidden;
 }
 .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
-  width: 100%;
+  width: 70%;
 }
 .overlay ul li a:after {
   content: '';
@@ -189,7 +190,7 @@
   width: 0%;
   transform: translateX(-50%);
   height: 3px;
-  background: #FFF;
+  background: #fff;
   transition: .35s;
 }
 
