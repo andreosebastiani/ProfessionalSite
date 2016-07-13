@@ -27,7 +27,7 @@
 
 .text-vertical-center h3 {
     color: rgba(255,255,255,0.8);
-    font-size: 2rem;
+    font-size: 2.2rem;
     line-height: 1.5em;
     font-weight: 400;
     font-family: "Merriweather", serif;
@@ -67,7 +67,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .button_container {
   position: absolute;
   top: 5%;
@@ -125,7 +125,7 @@
   overflow: hidden;
 }
 .overlay.open {
-  opacity: .95;
+  opacity: .997;
   visibility: visible;
   height: 100%;
 }
@@ -142,11 +142,14 @@
 .overlay.open li:nth-of-type(4) {
   animation-delay: .50s;
 }
+.overlay.open li:nth-of-type(5) {
+  animation-delay: .55s;
+}
 .overlay nav {
   position: relative;
   height: 70%;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 40%;
+  transform: translateY(-40%);
   font-size: 50px;
   font-family: 'Varela Round', serif;
   font-weight: 400;
@@ -168,7 +171,7 @@
 }
 .overlay ul li a {
     z-index: 1000;
-    height: 100px;
+    height: 85px;
   display: block;
   position: relative;
   color: #FFF;

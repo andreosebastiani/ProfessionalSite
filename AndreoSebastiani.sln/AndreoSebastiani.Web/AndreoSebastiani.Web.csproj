@@ -142,6 +142,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\BlogController.cs" />
+    <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\NavBarController.cs" />
     <Compile Include="Controllers\ResumeController.cs" />
@@ -165,6 +166,8 @@
     <Content Include="Views\Shared\Layouts\_GoogleAnalytics.cshtml" />
     <Content Include="Views\Blog\Index.cshtml" />
     <Content Include="Views\Resume\Index.cshtml" />
+    <Content Include="Views\Index.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
