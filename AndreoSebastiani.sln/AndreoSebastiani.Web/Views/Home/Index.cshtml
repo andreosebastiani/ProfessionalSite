@@ -4,12 +4,12 @@
 }
 
 <!-- Navigation -->
-@*<a id="menu-toggle" href="#" class="btn btn-default btn-lg toggle">    
+<a id="menu-toggle" href="#" class="hidden-xs btn btn-default btn-lg toggle">
     <i class="fa fa-bars"></i>
     &nbsp; Menu
 </a>
 
-<nav id="sidebar-wrapper">
+<nav class="hidden-xs" id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle">
             <i class="fa fa-times" style="color: #fff;"></i>
@@ -28,7 +28,7 @@
         </li>
 
     </ul>
-</nav>*@
+</nav>
 
 <!-- Header -->
 <header id="top" class="header">
@@ -41,16 +41,28 @@
     </div>
 </header>
 
-<div id="toggle" class="button_container"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
+<div id="toggle" class="hidden-lg hidden-md hidden-sm button_container"><span class="top"></span><span class="middle"></span><span class="bottom"></span></div>
 <div id="overlay" class="overlay">
-    <nav class="overlay-menu">
+    <nav class="hidden-lg hidden-md hidden-sm overlay-menu">
         <ul>
-            <li><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li><a href="@Url.Action("Index", "Home")">Profile</a></li>
             <li>
-                <a href="@Url.Action("Index", "Resume")">Resume</a>
+                <a href="@Url.Action("Index", "Resume")">Resumé</a>
             </li>
             <li>
-                <a href="mailto:andreosebastiani@gmail.com">Contact</a>
+                <a href="mailto:andreosebastiani@gmail.com">
+                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/andreosebastiani">
+                    <i class="fa fa-github" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/andreo-sebastiani-1908648b">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                </a>
             </li>
         </ul>
     </nav>
